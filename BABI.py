@@ -115,7 +115,7 @@ def main_apv():
         time.sleep(6)
         os.system("xdg-open https://www.facebook.com/profile.php?id=100052683424097")
         
-    r1=requests.get("").text
+    r1=requests.get("https://pastebin.com/raw/UALTy9Jc").text
     if key1 in r1:
         R()
     else:
